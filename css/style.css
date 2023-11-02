@@ -219,7 +219,56 @@ nav{
                 border-radius: 5px;
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
             }
-           
+    .containor-3{
+        margin-top: 100px;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f7f9fa;
+        }
+        .head-txt{
+            width: 85%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f7f9fa;
+        }
+
+    .products{
+        margin-top: 30px;
+        width:85%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        overflow: scroll;
+        }
+        .product{
+            width: 200px;
+            height: 280px;
+            background:var(--color3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            line-height:5px;
+        }
+        .product img{
+            width: 80%;   
+        }
+        .product p{
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--color4);
+        }
+        .star ion-icon{
+            color: var(--color5);
+        }
+
 @media only screen and (max-width:768px) {
     .bg{
         height: 350px;
