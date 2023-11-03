@@ -237,7 +237,23 @@ nav{
             align-items: center;
             background-color: #f7f9fa;
         }
-
+        .arrow{
+            width: 80px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            font-size: 25px;
+            color: var(--color4);
+        }
+        .arrow ion-icon{
+            cursor: pointer;
+            padding: 5px;
+        }
+        .arrow ion-icon:hover{
+            color: var(--color5);
+        }
     .products{
         margin-top: 30px;
         width:85%;
@@ -245,9 +261,14 @@ nav{
         display: flex;
         justify-content: space-around;
         overflow: scroll;
+        column-gap: 60px;
+        }
+        .products::-webkit-scrollbar {
+            width: 0em;
         }
         .product{
             width: 200px;
+            min-width: 200px;
             height: 280px;
             background:var(--color3);
             display: flex;
@@ -257,6 +278,7 @@ nav{
             box-sizing: border-box;
             line-height:5px;
             border-radius: 5px;
+            
             box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
         }
         .product img{

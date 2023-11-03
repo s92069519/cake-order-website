@@ -37,3 +37,29 @@ function changeImage(index) {
     });
     radios[index].checked = true;
   } 
+
+
+
+
+  //arrow moving
+
+   // Get the arrow icons
+   const arrowBack = document.getElementById('arrow-back');
+   const arrowForward = document.getElementById('arrow-forward');
+
+   // Get the products container
+   const productsContainer = document.querySelector('.products');
+
+   // Function to move products left
+   function moveProductsLeft() {
+       productsContainer.scrollLeft -= 300; // Adjust the scroll value as needed
+   }
+
+   // Function to move products right
+   function moveProductsRight() {
+       productsContainer.scrollLeft += 300; // Adjust the scroll value as needed
+   }
+
+   // Add click event listeners to the arrow icons
+   arrowBack.addEventListener('click', moveProductsLeft);
+   arrowForward.addEventListener('click', moveProductsRight);
