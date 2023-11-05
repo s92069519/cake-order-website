@@ -292,6 +292,33 @@ nav{
         .star ion-icon{
             color: var(--color5);
         }
+    
+    footer{
+        margin-top: 100px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        }
+        .logo_name{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: blueviolet;
+        }
+        .colum{
+            width: 18%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background: #dfdfdf;
+            align-items: center;
+            
+        }
+
+
 
 @media only screen and (max-width:768px) {
     .bg{
